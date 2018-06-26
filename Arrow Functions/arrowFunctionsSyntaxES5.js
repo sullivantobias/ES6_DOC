@@ -2,7 +2,7 @@
 
 /** Declare arrow functions
  * With 1 parameter
-*/
+ */
 var returnSqr = function returnSqr(e) {
   return e * e;
 };
@@ -21,17 +21,17 @@ var returnObj = function returnObj() {
 };
 
 /**Mapping the array * 10 */
-var mappingArray = array.map(function (x) {
+var mappingArray = array.map(function(x) {
   return x * 10;
 });
 
 /**Reduce the array */
-var mappingEachSpot = array.reduce(function (x, y) {
+var mappingEachSpot = array.reduce(function(x, y) {
   return x + y;
 });
 
 console.log(returnSqr(2)); // output 4
-console.log(secondReturn(2, 10)); // output 40 
-console.log(returnObj()); // output the entire array 
-console.log(mappingArray); // output the entire array * 10 
+console.log(secondReturn(2, 10)); // output 40
+console.log(returnObj()); // output the entire array
+console.log(mappingArray); // output the entire array * 10
 console.log(mappingEachSpot); // output 6

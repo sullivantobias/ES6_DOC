@@ -1,11 +1,11 @@
 const obj = {
-    first () {
-      console.log("first")
-    },
-    second (a) {
-      console.log("second")
-    }
+  first() {
+    console.log("first");
+  },
+  second(a) {
+    console.log("second");
   }
-  
-  obj.first()
-  obj.second()
+};
+
+obj.first();
+obj.second();

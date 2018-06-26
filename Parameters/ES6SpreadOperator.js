@@ -5,4 +5,4 @@ const stringVariable = "HEY";
 const chars = [...stringVariable];
 
 console.log(secondArray);
-console.log(chars)
+console.log(chars);

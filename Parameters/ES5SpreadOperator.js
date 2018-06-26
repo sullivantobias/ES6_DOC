@@ -5,4 +5,4 @@ var stringVariable = "HEY";
 var chars = stringVariable.split("");
 
 console.log(secondArray);
-console.log(chars)
+console.log(chars);

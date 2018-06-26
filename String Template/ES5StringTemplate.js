@@ -7,6 +7,10 @@ var animals = {
   }
 };
 
-var infos = "Family of Lion :  " + animals.Lion.Family + ",\n  Family of Turtle: " + animals.Turtle.Family;
+var infos =
+  "Family of Lion :  " +
+  animals.Lion.Family +
+  ",\n  Family of Turtle: " +
+  animals.Turtle.Family;
 
 console.log(infos);
