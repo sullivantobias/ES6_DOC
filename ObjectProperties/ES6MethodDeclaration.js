@@ -1,3 +1,6 @@
+/**
+ * New way of declaring method 
+ */
 const obj = {
   first() {
     console.log("first");

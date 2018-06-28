@@ -1,3 +1,7 @@
+/**
+ * This is use to compare binary or octal to an integer
+ */
+
 const binaries = 0b11011111101 === 1789 ? "true" : "false";
 const octal = 0o3375 === 1789 ? "true" : "false";
 

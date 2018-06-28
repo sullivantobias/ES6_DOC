@@ -1,3 +1,6 @@
+/**
+ * Declaring object
+ */
 const obj = {
   a: "a",
   b: "b",
@@ -8,11 +11,14 @@ const obj = {
   }
 };
 
-console.log(obj.a, obj.b, obj.c);
+console.log(obj.a, obj.b, obj.c); // a, b, c
 
+/**
+ * Destructuring
+ */
 const { a, b, c, switched } = obj;
 
-console.log(a, b, c, switched());
+console.log(a, b, c, switched()); // a, b, c, AND B (switched used)
 
 const ob = {
   one: 1,
@@ -21,4 +27,4 @@ const ob = {
 
 const { one, two, ten = 10 } = ob;
 
-console.log(one, two, ten);
+console.log(one, two, ten); // 1, 2, 10
